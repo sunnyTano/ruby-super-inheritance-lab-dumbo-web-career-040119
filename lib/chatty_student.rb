@@ -9,9 +9,10 @@ class ChattyStudent < Student
 end 
   
   def raise_hand
-    super
-    9.times do |x|
-      puts "Pick me!"
+    # super
+    # 9.times do |x|
+    #   puts "Pick me!" # this is a forced way...so I should redo
+    10.times {super}
   end
 end
 
