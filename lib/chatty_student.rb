@@ -9,8 +9,9 @@ class ChattyStudent < Student
 end 
   
   def raise_hand
-    9.times "#{super}"
+    9.times do |x|
+      puts "Pick me!"
   end
-
+end
 
 end 
